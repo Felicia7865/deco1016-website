@@ -1,0 +1,22 @@
+html body {
+    font-family: 'Roboto Condensed', sans-serif ;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header > a img {
+    float: left;
+    width: 60px;
+    padding-left: 90px;
+
+}
+
+header > h1{
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 100px;
+}
