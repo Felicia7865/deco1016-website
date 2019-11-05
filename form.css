@@ -65,6 +65,38 @@ form .form-group input[type="radio"]:focus + label {
     color:rgb(120,120,120);
 }
 
+form .form-group > p {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+form .form-group input[type="radio"]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+form .form-group label{
+    display: inline-block;
+    background-color: rgb(139, 210, 207);
+    padding: 10px 45px;
+    margin: 45px;
+    font-size: 18px;
+    border: 2px solid rgb(139, 210, 207);
+    border-radius: 30px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+form .form-group input[type="radio"]:focus + label {
+    border: 2px solid rgb(139, 210, 207);
+    background-color: white;
+    color:rgb(120,120,120);
+}
+
  form .checkbox{
     display: block;
     position: relative;
