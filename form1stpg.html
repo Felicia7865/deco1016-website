@@ -20,27 +20,32 @@
         <h2>Let's Start</h2>
 
     <form>
-        <div class="form-group">
+        <div class="form-group" onchange="javascript:location.href = this.value;" >
             <p>Just you or with someone else?</p>
-            <input type="radio" id="radioME" name="radioButton1" value="JustMe">
+            <input type="radio" id="radioME" name="radioButton1" value="JustMe" >
             <label for="radioME">Just me</label>
             <input type="radio" id="radioSOME" name="radioButton1" value="withsomeone">
             <label for="radioSOME">With Someone</label>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" onclick="MembershipNo()">
             <p>Existing Member?</p>
             <input type="radio" id="radioYES" name="radioButton2" value="Yes">
             <label for="radioYES">Yes</label>
             <input type="radio" id="radioNO" name="radioButton2" value="No">
             <label for="radioNO">No</label>
+            <div id="membertext">
+                <input type="text" placeholder="Membership No."/>
+            </div>
         </div>
+
 
         
         <section>
-        <p> By clicking "Let's Do This!", you will agree to ME's Privacy Policy and, 
+        <p> By clicking "Let's Do This!", you will agree to ME's <a href="">Privacy Policy</a> and, 
             <br>recieve notices and statements electronically.</p>
         </section>
+        
         <!--<div>
         <label class="checkbox">
             By checking this box, you will agree to ME's Privacy Policy and, <br>recieve notices and statements electronically.
