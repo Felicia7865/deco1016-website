@@ -45,7 +45,7 @@ header> nav > ul > li:hover{
 
 
 header > nav > ul > li button:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 header > nav > ul > li a:link, a:visited {
@@ -73,6 +73,7 @@ header > nav > ul > li a:hover{
     padding: 35px;
     width: 550px;
     height: 300px;
+    box-shadow: -50px -20px rgb(139, 210,207);
 }
 
 .main-feature > h1 {
@@ -108,42 +109,17 @@ header > nav > ul > li a:hover{
     color: black;
 }
 
-
-.background-feature{
-    display: flex;
-    background: rgb(139, 210,207);
-    width: 550px;
-    height: 350px;
-    position: absolute;
-    z-index: -1 ;
-    top: 15%;
-    left: 25%;
-      
-}
-
-.image-feature>img{
+.image-feature > img{
     display: flex;
     width: 470px;
     height: 300px;
     position: absolute;
     z-index: 1 ;
     top: 25%;
-    left: 57%;
+    right: 10%;
+    box-shadow: 100px 60px rgb(230, 230, 230);
 
 }
-
-.background-feature2{
-    display: flex;
-    background: rgb(230, 230, 230);
-    width: 350px;
-    height: 450px;
-    position: absolute;
-    z-index: 0 ;
-    top: 17%;
-    left: 80%;
-      
-}
-
 .about-us-heading {
     padding-top: 50px;
     font-family: 'Rokkitt', sans-serif;
@@ -193,6 +169,7 @@ header > nav > ul > li a:hover{
 .products-container > div {
     padding: 0 70px 0 70px;
     border: 3.5px solid black;
+    border-radius: 3px;
     text-align: center;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -210,32 +187,33 @@ header > nav > ul > li a:hover{
 
 }
 
-.products-container > div > img{
+.products-container > div > i {
     float: left;
-    padding-left: 30px;
-    height: 150px;
-    width: 150px;
-    vertical-align: middle;
+    padding-left: 40px;
+    color: rgb(139, 210,207);
 }
 
-.products-container .product1 > img {
-    width: 225px
+.products-container > div > i:hover {
+    color: rgba(139, 210, 207, 0.897);
 }
 
 .apply-now-container{
     height:150px;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     margin: 65px;
-    border: 4.5px solid rgb(139, 210,207);
+    padding: 0 10px 0 10px;
+    background-color: rgb(120,120,120,0.5);
     border-radius: 20px;
 }
 
 .apply-now-container > h3 {
-    padding-left: 20px;
+    vertical-align: middle;
     font-family: 'Rokkitt', sans-serif;
-    font-size: 24px;
+    padding-left: 15px;
+    font-size: 40px;
+    color: white;
 }
 
 .apply-now-container > ul{
@@ -243,13 +221,16 @@ header > nav > ul > li a:hover{
     align-items: center;
     justify-content: center;
     padding: 40px 30px ;
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .apply-now-container > ul > li{
     text-align: center;
-    padding: 14px 30px 0 40px ;
+    padding: 0px 30px 0 40px ;
     font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    font-kerning: normal;
 }
 
 .apply-now-container > button {
@@ -258,8 +239,8 @@ header > nav > ul > li a:hover{
     padding: 10px;
     margin: 55px;
     border: 0;
-    background-color:rgb(120, 120, 120);
-    color: #ffff;
+    background-color:rgb(230, 230, 230);
+    color: black;
     border-radius: 30px;
     font-size: 17px;
     font-family: 'Roboto Condensed', sans-serif ;
@@ -268,7 +249,7 @@ header > nav > ul > li a:hover{
 }
 
 .apply-now-container > button:hover{
-    background-color: rgb(120, 120, 120,0.5);
+    background-color: rgb(230,230,230,0.3);
 }
 
 footer {
@@ -299,3 +280,15 @@ footer > nav > ul > li {
     margin: 30px;
     font-weight: 600;
 }
+
+footer > nav > ul > span {
+    float: right;
+    padding: 14px 20px ;
+    margin: 15px;
+    color: rgba(0,0,0,0.19);
+}
+
+footer > nav > ul > span:hover {
+    color: black;
+}
+

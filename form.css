@@ -72,7 +72,10 @@ form .form-group input[type="text"]  {
     border-radius: 5px;
 }
 
-/*
+form .form-group #membertext{
+    display: none;
+}
+
  form .checkbox{
     display: block;
     position: relative;
@@ -136,7 +139,7 @@ p {
     font-size: 20px;
 }
 
-a button {
+button {
     width: 200px;
     height: 50px;
     padding: 10px;
@@ -149,7 +152,7 @@ a button {
     font-family: 'Roboto Condensed', sans-serif ;
 }
 
-a button:hover{
+button:hover{
     background-color:white;
     border: 2px solid black;
 }

@@ -20,3 +20,38 @@ header > h1{
     font-size: 40px;
     margin-right: 100px;
 }
+
+h2 {
+    font-family: 'Rokkitt', sans-serif;
+    padding: 50px 90px 10px 100px;
+    font-weight:700;
+    font-size: 40px;
+}
+
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+    
+form .form-group > label {
+    text-align: right;
+    padding-right: 20px;
+    max-width: 120px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 120px;
+}
+
+form .form-group > label + * {
+    flex-grow: 1 ;
+    flex-shrink: 0 ;
+    flex-basis: auto;
+}
+  
+form .form-group > input, select {
+  padding: 15px;
+  border: 0;
+  border-radius: 30px;
+}

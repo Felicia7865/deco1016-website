@@ -103,6 +103,17 @@ header > nav > ul > li a:link{
     color: black;
 }
 
+.image-feature > img{
+    display: flex;
+    width: 470px;
+    height: 300px;
+    position: absolute;
+    z-index: 1 ;
+    top: 35%;
+    right: 10%;
+    box-shadow: 100px -30px rgb(230, 230, 230);
+}
+
 .features-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,7 +183,6 @@ header > nav > ul > li a:link{
     align-items: left;
     justify-content: left;
     margin: 65px;
-    border: 4.5px solid rgb(230,230,230);
     box-shadow: -20px -20px rgb(120, 120, 120);
 }
 
@@ -196,7 +206,7 @@ header > nav > ul > li a:link{
     font-size: 20px;
 }
 
-.apply-now-container > button {
+.apply-now-container > a button {
     width: 150px;
     height: 50px;
     padding: 10px;
@@ -211,7 +221,7 @@ header > nav > ul > li a:link{
     transition-duration: 0.5s;
 }
 
-.apply-now-container > button:hover{
+.apply-now-container > a button:hover{
     background-color:rgb(139, 210,207,0.6);
 }
 
