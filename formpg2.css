@@ -4,7 +4,16 @@ html body {
     overflow-x: hidden;
     margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box;
 }
+
+section {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+  }
 
 header > a img {
     float: left;
@@ -23,10 +32,26 @@ header > h1{
 
 h2 {
     font-family: 'Rokkitt', sans-serif;
-    padding: 50px 90px 10px 100px;
+    /*padding: 50px 90px 10px 100px;*/
     font-weight:700;
-    font-size: 40px;
+    font-size: 45px;
+    text-align: center;
 }
+
+h3{ 
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+p {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px; 
+}
+
 
 form .form-group {
     display: flex;
@@ -44,14 +69,24 @@ form .form-group > label {
     flex-basis: 120px;
 }
 
+form .form-group #name{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+    
+/*form .form-group > label span {
+    display: block;
+    font-size: 0.75em;
+    opacity: 0.5;
+}*/
+    
 form .form-group > label + * {
     flex-grow: 1 ;
     flex-shrink: 0 ;
     flex-basis: auto;
 }
-  
+    
 form .form-group > input, select {
-  padding: 15px;
-  border: 0;
-  border-radius: 30px;
+    padding: 15px;
+    border-radius: 30px;
 }

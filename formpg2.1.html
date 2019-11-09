@@ -25,8 +25,8 @@
         <h3>Tell us about yourself.</h3>
         <p>Make sure your name matches what's on your ID so we can verify your identity.</p>
     <form method="POST">
-        <div class="form-group">
         <fieldset>
+        <div class="form-group">
             <label for="Title">Title</label>
             <select id="Title" name="title">
                 <option value="Select">Select</option>
@@ -34,11 +34,20 @@
                 <option value="Miss">Miss</option>
                 <option value="Mrs">Mrs</option>
                 <option value="Ms">Ms</option>
-            </select>    
-            <label for="First name">First Name</label>
+            </select> 
+        </div> 
+        
+        <div class="form-group">
+            <label for="First name" name="1stname">First Name</label>
             <input type="text">
+        </div>
+
+        <div class="form-group">
             <label for="Middle name">Middle Name(s)</label>
             <input type="text" placeholder="Enter if you have any... ">
+        </div>
+
+        <div class="form-group">
             <label for="Last name">Last Name</label>
             <input type="text">
         </fieldset>
