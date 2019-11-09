@@ -13,6 +13,7 @@ section {
     margin: 0 auto;
     padding: 30px;
     border-radius: 30px;
+    border: 2px;
   }
 
 header > a img {
@@ -52,15 +53,16 @@ p {
     font-size: 20px; 
 }
 
-
 form .form-group {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
+
 }
-    
-form .form-group > label {
+
+form .form-group > label{
     text-align: right;
     padding-right: 20px;
     max-width: 120px;
@@ -69,24 +71,26 @@ form .form-group > label {
     flex-basis: 120px;
 }
 
-form .form-group #name{
-    display: inline-block;
-    padding-bottom: 20px;
+form .form-group > select {
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px;
+    border: 2px solid rgb(230,230,230);
+    box-sizing: border-box;
+    width: 13%;
 }
-    
-/*form .form-group > label span {
-    display: block;
-    font-size: 0.75em;
-    opacity: 0.5;
-}*/
-    
-form .form-group > label + * {
-    flex-grow: 1 ;
-    flex-shrink: 0 ;
-    flex-basis: auto;
+
+form .form-group > input[type=text]:focus{
+    border: 3.5px solid rgb(139, 210, 207);
 }
-    
-form .form-group > input, select {
-    padding: 15px;
-    border-radius: 30px;
-}
+
+form .form-group > input, input[type=text] {
+    width: 30%;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2.5px solid rgb(230,230,230);
+    transition: 0.5s;
+    outline: none;
+  }
