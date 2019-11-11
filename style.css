@@ -319,7 +319,7 @@ footer > nav > ul > span:hover {
 }
     
     /*Tablet*/
-    @media only screen and (max-width: 800px){
+    @media only screen and (max-width: 600px){
       .search-bar{
         display: flex;
         align-items: center;

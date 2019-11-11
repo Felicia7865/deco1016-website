@@ -21,6 +21,8 @@ header > h1{
     margin-right: 100px;
 }
 
+
+
 section{
     display: flex;
     flex-wrap: wrap;
@@ -28,18 +30,23 @@ section{
     justify-content: center;
 }
 
+
+/*Icon Styling*/
 i {
     padding: 50px;
     color: rgb(139, 210,207);
     font-size:300px;
 }
 
+
+/*Centers the text with the icon*/
 p {
     text-align: center;
     font-size: 35px;
     color: rgb(120,120,120);
 }
 
+/*Button is styled*/
  a button {
     width: 150px;
     padding: 15px;
@@ -55,6 +62,7 @@ p {
     transition-duration: 0.5s;
 }
 
+/*What happens when the user hovers over the button*/
  a button:hover {
     background: #ffff;
     border: 2px solid rgb(139, 210,207);
