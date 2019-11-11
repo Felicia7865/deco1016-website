@@ -23,11 +23,3 @@ function checkSubmitType(){
         window.location = "https://felicia7865.github.io/deco1016-website/formpg2.1.html";
     }
 }
-
-function validateForm() {
-    var x = document.forms["myForm"]["title"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
