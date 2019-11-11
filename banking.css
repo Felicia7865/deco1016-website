@@ -131,13 +131,13 @@ header > nav > ul > li a:link{
 
 .image-feature > img{
     display: flex;
-    width: 470px;
-    height: 300px;
+    width: 40%;
+    height: 35%;
     position: absolute;
     z-index: 1 ;
-    top: 35%;
-    right: 7%;
-    /*box-shadow: 100px -30px rgb(230, 230, 230);*/
+    top: 40%;
+    right: 0%;
+    box-shadow: 100px 60px rgb(230, 230, 230);
 }
 
 .features-container{
@@ -278,4 +278,36 @@ footer > nav > ul > li {
     font-size: 20px;
     margin: 30px;
     font-weight: 600;
+}
+
+
+@media only screen and (max-width: 800px){
+    .search-bar{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .main-feature > h1 {
+      font-size: 20px;
+  }
+
+  .main-feature > p{
+      font-size: 15px;
+  }
+
+  .apply-now-container{
+      display: none;
+  }
+
+  .flip-card-front {
+    font-size: 20px;
+}
+
+.flip-card-back {
+    font-size: 13.5px;
+}
+
+
+
 }

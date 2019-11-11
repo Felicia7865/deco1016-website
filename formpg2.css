@@ -112,3 +112,10 @@ form .form-group > input, input[type=text] {
   }
 
 
+  @media only screen and (max-width: 800px){
+    
+    form .form-group > select {
+        width: 30%;
+    }
+  }
+
