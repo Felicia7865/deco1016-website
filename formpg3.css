@@ -16,7 +16,7 @@ header > a img {
 header > h1{
     letter-spacing: normal;
     text-align: center;
-    font-weight: 700;
+    font-weight: 700
     font-size: 40px;
     margin-right: 100px;
 }
@@ -36,6 +36,7 @@ h3 {
     font-size: 25px;
 }
 
+
 p {
     margin: 20px;
     text-align: center;
@@ -47,7 +48,7 @@ p {
   
 form * {
     box-sizing: border-box;
-}
+  }
 
 form .form-group {
     display: flex;
@@ -68,6 +69,8 @@ form .form-group > label{
     flex-basis: 120px;
 }
 
+/*Dropdown List*/
+
 form .form-group > select {
     border-radius: 20px;
     padding:10px;
@@ -76,6 +79,46 @@ form .form-group > select {
     box-sizing: border-box;
     width: 10%;
 }
+
+/*Radio buttons*/
+
+form .form-group input[type="radio"]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+form .form-group label{
+    display: inline-block;
+    background-color: rgb(139, 210, 207);
+    padding: 10px 45px;
+    margin: 45px;
+    font-size: 18px;
+    border: 2px solid rgb(139, 210, 207);
+    border-radius: 30px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+form .form-group input[type="radio"]:checked + label {
+    border: 2px solid rgb(139, 210, 207);
+    background-color: white;
+    color:rgb(120,120,120);
+}
+
+/*Textbox styles*/
+
+form .form-group #membertext{
+    display: none;
+}
+
+form .form-group input[type="text"]  {
+    width: 170px;
+    padding: 12px;
+    border: 2px solid rgb(120,120,120);
+    border-radius: 5px;
+}
+
 
 form .form-group > input:focus, input[type=text]:focus{
     border: 3.5px solid rgb(139, 210, 207);
@@ -92,6 +135,8 @@ form .form-group > input, input[type=text] {
     outline: none;
   }
 
+
+  /*Previous and Next Buttons*/
   form .form-group > a {
     text-decoration: none;
     display: inline-block;
@@ -110,5 +155,3 @@ form .form-group > input, input[type=text] {
     background-color:white;
     border: 2px solid black;
   }
-
-

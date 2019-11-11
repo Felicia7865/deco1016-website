@@ -54,6 +54,32 @@ header > nav > ul > li a:link{
     color: black;
 }
 
+.search-bar form{
+    margin: auto;
+    max-width: 400px;
+}
+
+.search-bar input[type=text]{
+        width: 250px;
+        box-sizing: border-box;
+        border: 2.5px solid rgb(139, 210,207);
+        border-radius: 30px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('serach.png') ;
+        background-position: 10px 10px; 
+        background-size: 20px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        
+      }
+      
+.search-bar input[type=text]:focus {
+        width: 350px;
+      }
+
 .main-feature-container{
     height:100%;
     display: flex;
@@ -110,8 +136,8 @@ header > nav > ul > li a:link{
     position: absolute;
     z-index: 1 ;
     top: 35%;
-    right: 10%;
-    box-shadow: 100px -30px rgb(230, 230, 230);
+    right: 7%;
+    /*box-shadow: 100px -30px rgb(230, 230, 230);*/
 }
 
 .features-container{

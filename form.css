@@ -76,50 +76,6 @@ form .form-group #membertext{
     display: none;
 }
 
- form .checkbox{
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 18px;
-    text-align: center;
-    user-select: none;
-}
-
-form .checkbox > input{
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-form .checkbox .checkmark{
-    position: absolute;
-    top: 0;
-    height: 25px;
-    width: 25px;
-    background-color: white;
-    border: 2px solid rgb(120,120,120);
-}
-
-form input:checked ~ .checkmark:after{
-    display: block;
-}
-
-.checkmark:before{
-    content: "";
-    display: none;
-    position: absolute;
-}
-
-.checkmark:after{
-    position: absolute;
-    display: contents;
-    content: "";
-}
-
 p {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif ;
