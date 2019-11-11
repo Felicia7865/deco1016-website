@@ -137,7 +137,7 @@ header > nav > ul > li a:link{
     z-index: 1 ;
     top: 40%;
     right: 0%;
-    box-shadow: 100px 60px rgb(230, 230, 230);
+    box-shadow: 90px 50px rgb(230, 230, 230);
 }
 
 .features-container{
